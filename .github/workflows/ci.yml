@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-<<<<<<< HEAD
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -106,7 +105,3 @@ jobs:
         with:
           name: calculator-package
           path: calculator.zip
-=======
-      - name: Placeholder step
-        run: echo "This is an empty pipeline. Nothing runs on push or PR."
->>>>>>> 64b7779facba8ed5d7219adafe5617ff9639411a
