@@ -8,7 +8,7 @@ def add(a, b):
     return a + b
 
 def subtract(a, b):
-    """Subtract b from a"""
+    """Subtract b   from a"""
     return a - b
 
 def multiply(a, b):
